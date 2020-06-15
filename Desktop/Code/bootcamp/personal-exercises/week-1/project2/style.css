@@ -1,0 +1,14 @@
+body {
+  background: #ddd
+}
+  
+nav {
+  background: rgb(51, 51, 51)
+
+  img class="hero-image" {
+    width: 100%;
+  }
+
+  li:first-child {
+    color: green;
+  }
