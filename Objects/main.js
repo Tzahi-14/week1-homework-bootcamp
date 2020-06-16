@@ -110,3 +110,19 @@ console.log(myList)
 
 //   console.log(p)
 //   console.log(person)
+
+const animalCounts = {
+    lion: 2,
+    zebra: 11,
+    ostrich: 1,
+    tortoise: 4
+  }
+  
+  //Suddenly the zoo acquired two dozen eagles
+  
+  
+  animalCounts['eagle'] = '24'
+  console.log(animalCounts)
+  
+  let x = [ {human: {name: 'Daena', age: 31} } ][0].age
+  console.log(x)
