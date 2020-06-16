@@ -1,4 +1,4 @@
-.box {
+/* .box {
   height: 50px;
   width: 50px;
   background-color: blue;
@@ -9,7 +9,7 @@
 
 button {
   box-shadow: 1px 1px green;
-}
+} */
 
 //**
 .box #first  {
@@ -30,3 +30,12 @@ button {
   box-shadow: 1px 1px green;
 }
 **/
+
+
+#container {
+  width: 153px;
+  height: 131px;
+  background-color: lightgrey;
+  font-family: sans-serif;
+  box-shadow: 2px 2px 5px black;
+}
