@@ -22,16 +22,32 @@
 // // console.log ("The first plant is " + plants[0], "and the last one is " + plants[plants.length -1] )
 // Arrays 1
 
+// const genes = ["ACADM", "GLMN", "RLF", "AZIN2", "CRYZ"]
+
+// let genesNew = []
+// genesNew.push(...genes)
+// genesNew [2] = genes[4]
+// genesNew [4] = genes[2]
+// let lastGen = genesNew.splice(3,1)
+// genesNew.push(...lastGen)
+// genesNew.push(...lastGen)
+// let unstalbeGene = "FXT"
+// genesNew.unshift(unstalbeGene)
+// console.log(genesNew)
+// console.log(lastGen)
+
 const genes = ["ACADM", "GLMN", "RLF", "AZIN2", "CRYZ"]
 
-let genesNew = []
-genesNew.push(...genes)
-genesNew [2] = genes[4]
-genesNew [4] = genes[2]
-let lastGen = genesNew.splice(3,1)
-genesNew.push(...lastGen)
-genesNew.push(...lastGen)
-let unstalbeGene = "FXT"
-genesNew.unshift(unstalbeGene)
-console.log(genesNew)
-console.log(lastGen)
+const newGenes = []
+newGenes.push(...genes)
+newGenes[2]= genes[4]
+newGenes [4]= genes[2]
+newGenes.splice(3,1)
+newGenes.push(genes[3])
+newGenes.push(genes[3])
+const newg = "FXT"
+newGenes.unshift(newg)
+console.log(newGenes);
+
+
+
